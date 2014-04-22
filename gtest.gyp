@@ -12,6 +12,8 @@
                 'src/gtest-all.cc'
             ],
 
+            'defines+': [ '_VARIADIC_MAX=10' ],
+
             'include_dirs': [
                 '../gtest',
                 '../gtest/include'
@@ -22,6 +24,7 @@
                     '../gtest',
                     '../gtest/include'
                 ],
+                'defines+': [ '_VARIADIC_MAX=10' ],
             },
         },
         {
@@ -31,6 +34,8 @@
             'sources': [
                 'src/gtest_main.cc'
             ],
+
+            'defines+': [ '_VARIADIC_MAX=10' ],
 
             'dependencies': [
                 'gtest',
@@ -46,6 +51,7 @@
                     '../gtest',
                     '../gtest/include'
                 ],
+                'defines+': [ '_VARIADIC_MAX=10' ],
             },
         }
     ]

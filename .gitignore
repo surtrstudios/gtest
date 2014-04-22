@@ -1,5 +1,7 @@
 *.sln
 *.vcxproj
 *.vcxproj.filters
+*.sdf
+*.suo
 Debug
 Release
